@@ -14,7 +14,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "Contato")
 public class Contato implements Serializable {
-    
+
+    private static final long serialVersionUID = -2319598745423332344L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // AUTO_INCREMENT
     private int id;
@@ -24,15 +26,16 @@ public class Contato implements Serializable {
     private String telefone;
     @Column
     private String email;
-    
-    public Contato() {}
-    
+
+    public Contato() {
+    }
+
     public Contato(String nome, String telefone, String email) {
         this.nome = nome;
         this.telefone = telefone;
         this.email = email;
     }
-    
+
     public Contato(int id, String nome, String telefone, String email) {
         this.id = id;
         this.nome = nome;

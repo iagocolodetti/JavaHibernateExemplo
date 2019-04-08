@@ -1,5 +1,6 @@
 
 import org.hibernate.HibernateException;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
@@ -26,5 +27,13 @@ public class HibernateUtil {
 
     public static SessionFactory getSessionFactory() {
         return SESSION_FACTORY;
+    }
+
+    public static void closeConnection(Session session) {
+        try {
+            session.close();
+        } catch (HibernateException e) {
+            e.printStackTrace();
+        }
     }
 }

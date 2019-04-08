@@ -5,9 +5,9 @@ Projeto simples desenvolvido no NetBeans utilizando a linguagem Java fazendo int
 As operações exemplificadas nesse projeto são as de: inserção, leitura, alteração e remoção (CRUD) de contatos no banco de dados MySQL.
 
 * Downloads: https://github.com/iagocolodetti/JavaHibernateExemplo/releases
-   * [Arquivo de Script MySQL](https://github.com/iagocolodetti/JavaHibernateExemplo/releases/download/v1.0/contatodb.sql "contatodb.sql")
-   * [Bibliotecas Necessárias](https://github.com/iagocolodetti/JavaHibernateExemplo/releases/download/v1.0/bibliotecas.zip "bibliotecas.zip")
-   * [Código-Fonte](https://github.com/iagocolodetti/JavaHibernateExemplo/archive/v1.0.zip "v1.0.zip")
+   * [Arquivo de Script MySQL](https://github.com/iagocolodetti/JavaHibernateExemplo/releases/download/v1.1/contatodb.sql "contatodb.sql")
+   * [Bibliotecas Necessárias](https://github.com/iagocolodetti/JavaHibernateExemplo/releases/download/v1.1/bibliotecas.zip "bibliotecas.zip")
+   * [Código-Fonte](https://github.com/iagocolodetti/JavaHibernateExemplo/archive/v1.1.zip "v1.1.zip")
 
 
 
